@@ -89,48 +89,48 @@
                     <h2 class="service_header">Service and our projects </h2>
                 </div>
                 <div class="btn-service-container">
-                    <button class="btn-service">Gardens</button>
-                    <button class="btn-service">Lawn</button>
-                    <button class="btn-service">Planting</button>
+                    <button id="garden" class="btn-service">Gardens</button>
+                    <button id="lawn" class="btn-service">Lawn</button>
+                    <button id="planting" class="btn-service">Planting</button>
                 </div>
             </div>
             <div class="service_items">
-                <div class="service_item">
+                <div class="service_item garden">
                     <img class="service-img" src="./assets/jpg/first.jpg" alt="service">
-                    <div class="service_card">
+                    <div class="service_card ">
                         <p class="card_header">Garden care</p>
                         <p class="card_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
-                <div class="service_item">
+                <div class="service_item planting">
                     <img class="service-img" src="./assets/jpg/first%20(1).jpg" alt="service">
                     <div class="service_card">
                         <p class="card_header">Planting</p>
                         <p class="card_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
-                <div class="service_item">
+                <div class="service_item lawn">
                     <img class="service-img" src="./assets/jpg/first%20(2).jpg" alt="service">
                     <div class="service_card">
                         <p class="card_header">Lawn care</p>
                         <p class="card_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
-                <div class="service_item">
+                <div class="service_item planting">
                     <img class="service-img" src="./assets/jpg/first%20(3).jpg" alt="service">
                     <div class="service_card">
                         <p class="card_header">Planting</p>
                         <p class="card_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
-                <div class="service_item">
+                <div class="service_item garden">
                     <img class="service-img" src="./assets/jpg/first%20(4).jpg" alt="service">
                     <div class="service_card">
                         <p class="card_header">Garden care</p>
                         <p class="card_text">Lorem Ipsum has been the industry</p>
                     </div>
                 </div>
-                <div class="service_item">
+                <div class="service_item planting">
                     <img class="service-img" src="./assets/jpg/first%20(5).jpg" alt="service">
                     <div class="service_card">
                         <p class="card_header">Planting</p>
@@ -145,15 +145,45 @@
             <div class="prices">
                 <h2 class="price_header">Prices</h2>
                 <div class="prices_block">
-                    <select class="prices_item">
-                        <option value="basics">Basics</option>
-                    </select>
-                    <select class="prices_item">
-                        <option value="basics">Standard</option>
-                    </select>
-                    <select class="prices_item">
-                        <option value="basics">Pro care</option>
-                    </select>
+                    <div class="prices_item">
+                        <div class="prices_item_title">Basics</div>
+                        <div class="price_item_info">
+                            <div class="prices_item_line"></div>
+                            <div class="prices_item_text">Release of Letraset sheets containing Lorem Ipsum passages,
+                                and more recently
+                            </div>
+                            <p class="prices_item_price"><span class="price_item_orange">15$</span>/per hour</p>
+                            <div class="price_order_container price_order_container1"><a class="price_order"
+                                                                                         href="#contacts">Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prices_item">
+                        <div class="prices_item_title">Standard</div>
+                        <div class="price_item_info">
+                            <div class="prices_item_line"></div>
+                            <div class="prices_item_text">Release of Letraset sheets containing Lorem Ipsum passages,
+                                and more recently
+                            </div>
+                            <p class="prices_item_price"><span class="price_item_orange">25$</span>/per hour</p>
+                            <div class="price_order_container price_order_container2"><a class="price_order"
+                                                                                         href="#contacts">Order</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="prices_item">
+                        <div class="prices_item_title">Pro care</div>
+                        <div class="price_item_info">
+                            <div class="prices_item_line"></div>
+                            <div class="prices_item_text">Release of Letraset sheets containing Lorem Ipsum passages,
+                                and more recently
+                            </div>
+                            <p class="prices_item_price"><span class="price_item_orange">35$</span>/per hour</p>
+                            <div class="price_order_container price_order_container3"><a class="price_order"
+                                                                                         href="#contacts">Order</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div class="price_right">
@@ -169,9 +199,26 @@
                 <img class="logo-img woman" src="./assets/svg/woman.svg" alt="logo">
             </div>
             <h2 class="contacts_header">Contact us</h2>
-            <select class="contacts_city">
-                <option value="basics"> City</option>
-            </select>
+            <div class="phone_block">
+                <div class="select_city">
+                    <radio class="not_option_city" value="0"> City</radio>
+                    <div class="option_city">
+                        <radio class="option_city_item cananda" value="1"> Canandaigua, NY
+                            <div class="option_city_line"></div>
+                        </radio>
+                        <radio class="option_city_item new" value="2"> New York City
+                            <div class="option_city_line"></div>
+                        </radio>
+                        <radio class="option_city_item yonkers" value="3"> Yonkers, NY
+                            <div class="option_city_line"></div>
+                        </radio>
+                        <radio class="option_city_item sherrill" value="4"> Sherrill, NY
+                            <div class="option_city_line"></div>
+                        </radio>
+                    </div>
+                </div>
+                <div class="card_place"></div>
+            </div>
         </section>
     </div>
 </main>
